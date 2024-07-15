@@ -48,8 +48,8 @@ packages = ["requests"]
 
 requires = [
     "chardet>=3.0.2,<3.1.0",
-    "idna>=2.5,<2.8",
-    "urllib3>=1.21.1,<1.25",
+    "idna>=2.5,<3.8",
+    "urllib3>=1.21.1,<2.3",
     "certifi>=2017.4.17",
 ]
 test_requirements = [
